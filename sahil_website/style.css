@@ -48,9 +48,9 @@
 }
 .heading
 {
-    color: rgb(30, 144, 210);
+    color: rgb(30, 144, 210) !important;
     font-size: 60px;
-    transform: translate(0%,40%) !important;
+    transform: translate(0%,40%);
 }
 .img_home
 {
