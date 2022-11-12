@@ -382,6 +382,7 @@ html
     .service_holder{ transform: translate(10%,40%); }
 
     .contact_card{ transform: translate(-50%,0%); }
+    .button_text{ font-size: 20px; }
 }
 @media screen and (max-device-height: 811px)                                      /* ----  small mobile  --------- */
 {
