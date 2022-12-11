@@ -334,7 +334,7 @@ html
     .about{ height: 1400px; padding-top: 20%; }
     .normal_text{ font-size: 50px; width: 100%; margin-top: 80%; margin-bottom: -10% !important; }
     .img_about{ transform: translate(10%,-280%); }
-    .button{ transform: translate(250%,2400%) scale(2) rotate(4deg);  }
+    .button{ transform: translate(250%,2350%) scale(2) rotate(4deg);  }
 
     .service{ margin-top: 30%; height: 100%; margin-top: 30%; }
     .img_service{ transform: translate(35%,0%) scale(1); }
