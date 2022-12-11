@@ -375,9 +375,9 @@ html
 
     .about{ margin-top: 40%; height: 150px; padding-top: 80%; }
     .normal_text{ font-size: 45px; width: 100%; }
-    .img_about{ margin-top: -200%;  transform: scale(0.6); }
+    .img_about{ margin-top: -150%;  transform: scale(0.6); }
     .button{ transform: translate(250%,1390%) scale(2) rotate(4deg) !important;  }
-    body{background-color: white !important;}
+    body{background-color: red !important;}
 
     .service{ margin-top: 90%; margin-bottom: 55%; }
     .service_holder{ transform: translate(10%,40%); }
