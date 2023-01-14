@@ -382,7 +382,7 @@ html
 
     .about{ margin-top: 40%; height: 150px; padding-top: 80%; }
     .normal_text{ font-size: 45px; width: 100%; }
-    .img_about{ margin-top: -180%;  transform: scale(1.3); }
+    .img_about{ margin-top: -180%;  transform: scale(1.3) translate(410%);; }
     .button{ transform: translate(250%,1350%) scale(2) rotate(4deg);  }
 
     .service{ margin-top: 90%; margin-bottom: 55%; }
