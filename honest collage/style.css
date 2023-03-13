@@ -438,7 +438,7 @@ span
 {
     /* home */
     .nav_tab{font-size: 17px; transform: translate(40%);}
-    .header_top{height: 5%; display: none;}
+    .header_top{height: 5%;}
     .header_img_holder{ height: 35%; width: 100%; background-position-y: 350%; background-size: 200%; }
     .collage_name{ font-size: 50px; }
     .wellcome{ font-size: 20px; }
