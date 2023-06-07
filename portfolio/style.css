@@ -773,7 +773,7 @@ body
 {
     body{ scroll-behavior: none !important; }
     .box-area{ display: none; }
-    #blob{ display: none; }
+    /* #blob{ display: none; } */
 
     .header { width: 100% !important; height: 70px; position: absolute; }
     .tab { width: 68px; height: 25px; }
