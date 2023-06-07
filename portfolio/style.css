@@ -797,7 +797,7 @@ body
     #project_text{ font-size: 27px !important; transform: translate(-20%,0%);width: 70%; }
     .project_card_baground { width: 210px; height: 100px; margin-bottom: 30%; transform: translate(6%,-40%) scale(0.53); }
     .project_card_baground h1{ display: block; transform: translate(-2%,50%) rotate(-90deg); text-align: center;  }
-    .project_card p{ font-size: 18px; }
+    .project_card p{ font-size: 17px; }
     .project_card_baground:hover > .project_card { transform: translate(0%,0%) scale(0.9); background-color: black; }
     .project_card_baground:hover~.project_card_baground { transform: translate(6%,-40%) scale(0.53); }
 
