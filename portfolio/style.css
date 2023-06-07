@@ -772,7 +772,7 @@ body
 @media screen and (max-width: 480px)
 {
     body{ scroll-behavior: none !important; }
-    .box-area{ display: none; }
+    /* .box-area{ display: none; } */
     /* #blob{ display: none; } */
 
     .header { width: 100% !important; height: 70px; position: absolute; }
