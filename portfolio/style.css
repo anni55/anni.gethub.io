@@ -783,7 +783,7 @@ body
     .body_img{ transform: scale(0.42) translate(-102%,0%); }
     .hello{ transform: scale(0.5) translate(-40%,-160%); width: 300%; font-size: 50px; overflow: visible; white-space: normal; }
     .lala{ display: none; }
-    .body_text button{ transform: translate(-10%,-500%) scale(0.7); width: 170%; }
+    .body_text button{ transform: translate(-10%,-400%) scale(0.7); width: 170%; }
 
     #skills{ margin-top: -30%; }
     .skill_text_name{ width: 220%; position: absolute; transform: translate(-133%,-100%); font-size: 30px !important; }
