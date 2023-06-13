@@ -373,6 +373,7 @@ body
 {
     width: 105%;
     position: relative;
+    z-index: 2;
     left: -17%;
     top: 10%;
     display: flex;
@@ -485,6 +486,8 @@ body
     display: flex;
     padding-top: 7%;
     padding-bottom: 5%;
+    position: relative;
+    z-index: 2;
 }
 .contact_img
 {
