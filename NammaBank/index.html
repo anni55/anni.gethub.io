@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="holder">
+            <div class="left">
+                <h1>Wellcome to Namma bank</h1>
+                <div class="login_div">
+                    <form action="" class="login">
+                        <h4>Please login to continue</h4>
+                        <input onkeyup="usernameRegX()" type="text" name="id" id="id" placeholder="Username"><br>
+                        <input onkeyup="passwordRegX()" type="password" name="password" id="password" placeholder="Password"><br>
+                        <a href="">Forgot password</a><br>
+                        <input onclick="fundAccount()" type="button" value="Login" name="submit" id="logInSubmit" disabled>
+                        <p><a id="toSignin">New to Namma bank</a><br></p>
+                    </form>
+                </div>
+                <div class="signin_div hide">
+                    <form action="" class="signin">
+                        <h4>Please provide the following details</h4>
+                        <input onkeyup="signinFullNameRegX()" type="text" name="signinFullName" id="signinFullName" placeholder="Full Name">
+                        <input onkeyup="signinUserNameRegX()" type="text" name="signinUserName" id="signinUserName" placeholder="Username">
+                        <input onkeyup="signinPasswordRegX()" type="password" name="signinPassword" id="signinPassword" placeholder="Password">
+                        <input onkeyup="signinConformPasswordRegX()" type="password" name="signinConformPassword" id="signinConformPassword" placeholder="Conform Password">
+                        <input onkeyup="phoneRegX()" type="text" name="phone" id="phone" placeholder="Phone Number">
+                        <input onkeyup="EmailRegX()" type="text" name="Email" id="Email" placeholder="Email">
+                        <div class="Country">
+                            <label for="cars">Country : </label>
+                            <select name="Country" id="Country">
+                                <option value="India">India</option>
+                                <option value="USA">USA</option>
+                                <option value="Japan">Japan</option>
+                            </select>
+                        </div>
+                        <div class="Gender">
+                            <label for="cars">Gender : </label>
+                            <select name="Gender" id="Gender">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <input onclick="addAccounts()" type="button" value="Sign in" name="SignIn" id="signInSubmit" disabled>
+                        <p><a id="toLogin">I already have an account</a><br></p>
+                    </form>
+                </div>
+            </div>
+            <div class="right">
+            </div>
+
+        </div>
+
+        <div class="popUpHolder">
+            <!-- <div class="popUp"> <span>Your Account has been Created</span> </div> -->
+        </div>
+    </body>
+
+    <script src="main.js"></script>
+
+</html>
