@@ -94,7 +94,7 @@ a
     width: 50%;
     margin: 10% 25% 7% 25%;
 }
-#signInSubmit:dis,#logInSubmit:disabled
+#signInSubmit:disabled,#logInSubmit:disabled
 {
     border: 2px solid black;
     border-radius: 50px;
