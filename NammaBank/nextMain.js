@@ -58,7 +58,6 @@ btnLoan.addEventListener("click", function(e)
 {
     e.preventDefault();
     let Amount =Math.floor(Number(inputLoanAmount.value));
-    alert(Amount);
     if(Amount > 0 && accounts[yourAccount].movements.some(mov => mov >= Amount / 10))
     {
         accounts[yourAccount].movements.push(Amount);
